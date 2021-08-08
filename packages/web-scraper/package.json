@@ -2,9 +2,9 @@
   "name": "web-scraper",
   "version": "1.0.0",
   "description": "Web Scraper for Clash Tracker",
-  "main": "index.js",
+  "main": "scraper.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node scraper.js",
     "test": "test"
   },
   "author": "",

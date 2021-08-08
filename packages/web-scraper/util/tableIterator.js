@@ -1,16 +1,25 @@
 const cheerio = require('cheerio');
 
-const tableIterator = table => {
+const tableIterator = (table, labels) => {
   const tableData = [];
   let rowData = [];
+  let rawData = {};
   const $ = cheerio.load(table);
+  console.log(labels);
 
   $('tr').each((index, row) => {
-    rowData = []
-    $('td, th', row).each((index2, value) => {
+    if (index === 0) return;
+
+    rowData = [];
+    $('td', row).each((index, value) => {
       rowData.push($(value).text().replace('\n',''));
     });
-    tableData.push(rowData);
+    
+    rawData = {};
+    labels.forEach((label, index) => {
+      rawData[label] = rowData[index];
+    })
+    tableData.push(rawData);
   });
 
   return tableData;
