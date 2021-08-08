@@ -1,0 +1,10 @@
+{
+  "base_path": "https://clashofclans.fandom.com/wiki/",
+  "heroes": [
+    "Barbarian_King",
+    "Archer_Queen",
+    "Grand_Warden",
+    "Royal_Champion",
+    "Battle_Machine"
+  ]
+}
