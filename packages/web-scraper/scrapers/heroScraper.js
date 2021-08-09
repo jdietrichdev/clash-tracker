@@ -1,11 +1,9 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const mongoose = require('mongoose');
+const { mongoose, HERO_MODEL } = require('../util/connection');
 const { tableIterator } = require('../util/tableIterator');
 const constants = require('../util/constants');
 const heroes = require('../scrape-data/heroes.json');
-
-const heroModel = mongoose.model('hero', new mongoose.Schema({}, {strict: false}));
 
 const getHeroData = () => {
   heroes.forEach(async hero => {
@@ -23,10 +21,11 @@ const getHeroData = () => {
       else if (index === 1) heroData.stats = tableIterator(table, hero.stats);
       else if (index < abilities.length + 2) heroData[abilities[index - 2]] = tableIterator(table, hero.abilities[abilities[index - 2]]);
     });
-
+    
     try {
-      await heroModel.updateOne({name: heroData.name}, heroData, {upsert: true}, (err) => {
-        if (err) throw err;
+      HERO_MODEL.updateOne({name: heroData.name}, heroData, {upsert: true}, (err) => {
+        if (err) console.log(err);
+        else console.log(heroData.name + ' has been saved');
       });
     } catch (err) {
       console.log(err);

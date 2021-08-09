@@ -128,5 +128,37 @@
         "Number_Targets"
       ]
     }
+  },
+  {
+    "name": "Battle Machine",
+    "path": "Battle_Machine",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Range"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Hit",
+      "Hitpoints",
+      "Ability_Level",
+      "Upgrade_Cost",
+      "Upgrade_Time",
+      "BH_Level_Required"
+    ],
+    "abilities": {
+      "electrichammerinfo": [
+        "Cooldown",
+        "Speed_Increase"
+      ],
+      "electrichammer": [
+        "Level",
+        "Damage_Increase",
+        "Health_Recovery"
+      ]
+    }
   }
 ]
