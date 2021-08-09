@@ -5,7 +5,6 @@ const tableIterator = (table, labels) => {
   let rowData = [];
   let rawData = {};
   const $ = cheerio.load(table);
-  console.log(labels);
 
   $('tr').each((index, row) => {
     if (index === 0) return;
@@ -14,6 +13,8 @@ const tableIterator = (table, labels) => {
     $('td', row).each((index, value) => {
       rowData.push($(value).text().replace('\n',''));
     });
+
+    if (rowData[0] === undefined) return;
     
     rawData = {};
     labels.forEach((label, index) => {
@@ -22,6 +23,7 @@ const tableIterator = (table, labels) => {
     tableData.push(rawData);
   });
 
+  // console.log(tableData);
   return tableData;
 };
 
