@@ -11,6 +11,8 @@ db.once('open', () => {
 });
 
 const heroModel = mongoose.model('hero', new mongoose.Schema({}, {strict: false}));
+const troopModel = mongoose.model('troop', new mongoose.Schema({}, {strict: false}));
 
 exports.mongoose = mongoose;
 exports.HERO_MODEL = heroModel;
+exports.TROOP_MODEL = troopModel;

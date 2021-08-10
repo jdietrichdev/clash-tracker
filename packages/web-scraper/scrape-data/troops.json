@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Barbarian",
+    "path": "Barbarian",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Archer",
+    "path": "Archer",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Giant",
+    "path": "Giant",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Goblin",
+    "path": "Goblin",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Wall Breaker",
+    "path": "Wall_Breaker",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Balloon",
+    "path": "Balloon",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Goblin",
+    "path": "Goblin",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Wizard",
+    "path": "Wizard",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Healer",
+    "path": "Healer",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ]
+  },
+  {
+    "name": "Dragon",
+    "path": "Dragon",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ]
+  },
+  {
+    "name": "PEKKA",
+    "path": "PEKKA",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ]
+  },
+  {
+    "name": "Baby Dragon",
+    "path": "Baby_Dragon/Home_Village",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Miner",
+    "path": "Miner",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ]
+  },
+  {
+    "name": "Electro Dragon",
+    "path": "Electro_Dragon",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ]
+  },
+  {
+    "name": "Yeti",
+    "path": "Yeti",
+    "type": "elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks",
+      "Three_Barracks",
+      "Four_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ]
+  }
+]
