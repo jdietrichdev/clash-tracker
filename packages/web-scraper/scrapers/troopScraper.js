@@ -9,7 +9,7 @@ const getTroopData = () => {
   troops.forEach(async troop => {
     const troopData = {};
     const { data } = await axios.get(constants.BASE_PATH + troop.path);
-    const $ = cheerio.load(data);
+    let $ = cheerio.load(data);
 
     console.log(troop.name);
     troopData.name = troop.name;
@@ -22,6 +22,20 @@ const getTroopData = () => {
         if (index === 3) troopData.supertroop = tableIterator(table, troop.supertroop);
       }
     });
+
+    if(troop.spawnedtroop) {
+      const spawnedTroopData = {};
+      const spawnedTroop = troop.spawnedtroop
+      const { data } = await axios.get(constants.BASE_PATH + troop.path + '/' + spawnedTroop.path);
+      $ = cheerio.load(data);
+
+      $('table.wikitable > tbody').each((index, table) => {
+        if (index === 0) spawnedTroopData.info = tableIterator(table, spawnedTroop.info);
+        else if (index === 1) spawnedTroopData.stats = tableIterator(table, spawnedTroop.stats);
+      });
+      
+      troopData.spawnedTroop = spawnedTroopData;
+    }
     
     try {
       TROOP_MODEL.updateOne({name: troopData.name}, troopData, {upsert: true}, (err) => {

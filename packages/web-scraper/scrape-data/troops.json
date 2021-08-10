@@ -493,5 +493,342 @@
       "Research_Time",
       "Lab_Level_Required"
     ]
+  },
+  {
+    "name": "Minion",
+    "path": "Minion",
+    "type": "dark elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Dark_Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Hog Rider",
+    "path": "Hog_Rider",
+    "type": "dark elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Dark_Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ]
+  },
+  {
+    "name": "Valkyrie",
+    "path": "Valkyrie",
+    "type": "dark elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Dark_Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ]
+  },
+  {
+    "name": "Golem",
+    "path": "Golem",
+    "type": "dark elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Dark_Barracks_Level_Required",
+      "Range",
+      "Death_Damage_Radius"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Damage_On_Death",
+      "Units_Spawned",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "spawnedtroop": {
+      "name": "Golemite",
+      "path": "Golemite",
+      "info": [
+        "Preferred_Target",
+        "Attack_Type",
+        "Movement_Speed",
+        "Attack_Speed",
+        "Range",
+        "Death_Damage_Radius"
+      ],
+      "stats": [
+        "Level",
+        "Damage_Per_Second",
+        "Damage_Per_Attack",
+        "Damage_On_Death",
+        "Hitpoints"
+      ]
+    }
+  },
+  {
+    "name": "Witch",
+    "path": "Witch",
+    "type": "dark elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Summon_Cooldown",
+      "Dark_Barracks_Level_Required",
+      "Range",
+      "Units_Per_Summon"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ],
+    "spawnedtroop": {
+      "name": "Skeleton",
+      "path": "Skeleton",
+      "info": [
+        "Preferred_Target",
+        "Attack_Type",
+        "Movement_Speed",
+        "Attack_Speed",
+        "Range"
+      ],
+      "stats": [
+        "Level",
+        "Damage_Per_Second",
+        "Damage_Per_Attack",
+        "Hitpoints"
+      ]
+    }
+  },
+  {
+    "name": "Lava Hound",
+    "path": "Lava_Hound",
+    "type": "dark elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Dark_Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Damage_On_Death",
+      "Units_Spawned",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ],
+    "supertroop": [
+      "Troop_Name",
+      "Boost_Cost",
+      "Level_Required"
+    ],
+    "spawnedtroop": {
+      "name": "Lava Pup",
+      "path": "Lava_Pup",
+      "info": [
+        "Preferred_Target",
+        "Attack_Type",
+        "Movement_Speed",
+        "Attack_Speed",
+        "Range"
+      ],
+      "stats": [
+        "Damage_Per_Second",
+        "Damage_Per_Attack",
+        "Hitpoints"
+      ]
+    }
+  },
+  {
+    "name": "Bowler",
+    "path": "Bowler",
+    "type": "dark elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Dark_Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ]
+  },
+  {
+    "name": "Ice Golem",
+    "path": "Ice_Golem",
+    "type": "dark elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Dark_Barracks_Level_Required",
+      "Range",
+      "Freeze_Radius"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Freeze_Time_Offense",
+      "Freeze_Time_Defense",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ]
+  },
+  {
+    "name": "Headhunter",
+    "path": "Headhunter",
+    "type": "dark elixir",
+    "info": [
+      "Preferred_Target",
+      "Attack_Type",
+      "Housing_Space",
+      "Movement_Speed",
+      "Attack_Speed",
+      "Dark_Barracks_Level_Required",
+      "Range"
+    ],
+    "trainingtime": [
+      "One_Barracks",
+      "Two_Barracks"
+    ],
+    "stats": [
+      "Level",
+      "Damage_Per_Second",
+      "Damage_Per_Attack",
+      "Damage_Per_Second_Hero",
+      "Speed_Decrease",
+      "Attack_Speed_Decrease",
+      "Hitpoints",
+      "Training_Cost",
+      "Research_Cost",
+      "Research_Time",
+      "Lab_Level_Required"
+    ]
   }
 ]
