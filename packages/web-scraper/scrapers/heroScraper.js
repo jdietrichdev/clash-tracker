@@ -1,7 +1,7 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const { mongoose, HERO_MODEL } = require('../util/connection');
-const { tableIterator } = require('../util/tableIterator');
+const { infoTableIterator, statTableIterator } = require('../util/tableIterator');
 const constants = require('../util/constants');
 const heroes = require('../scrape-data/heroes.json');
 
@@ -17,9 +17,9 @@ const getHeroData = () => {
     const abilities = Object.keys(hero.abilities);
 
     $('table.wikitable > tbody').each((index, table) => {
-      if (index === 0) heroData.info = tableIterator(table, hero.info);
-      else if (index === 1) heroData.stats = tableIterator(table, hero.stats);
-      else if (index < abilities.length + 2) heroData[abilities[index - 2]] = tableIterator(table, hero.abilities[abilities[index - 2]]);
+      if (index === 0) heroData.info = infoTableIterator(table, hero.info);
+      else if (index === 1) heroData.stats = statTableIterator(table, hero.stats);
+      else if (index < abilities.length + 2) heroData[abilities[index - 2]] = statTableIterator(table, hero.abilities[abilities[index - 2]]);
     });
     
     try {

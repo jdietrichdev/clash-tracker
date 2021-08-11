@@ -1,6 +1,26 @@
 const cheerio = require('cheerio');
 
-const tableIterator = (table, labels) => {
+const infoTableIterator = (table, labels) => {
+  const info = {};
+  const rowData = [];
+  const $ = cheerio.load(table);
+
+  $('tr').each((index, row) => {
+    if (index === 0) return;
+
+    $('td', row).each((index, value) => {
+      rowData.push($(value).text().replace('\n',''));
+    });
+
+    labels.forEach((label, index) => {
+      info[label] = rowData[index];
+    });
+  });
+
+  return info;
+}
+
+const statTableIterator = (table, labels) => {
   const tableData = [];
   let rowData = [];
   let rawData = {};
@@ -23,8 +43,8 @@ const tableIterator = (table, labels) => {
     tableData.push(rawData);
   });
 
-  // console.log(tableData);
   return tableData;
 };
 
-exports.tableIterator = tableIterator;
+exports.infoTableIterator = infoTableIterator;
+exports.statTableIterator = statTableIterator;

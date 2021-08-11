@@ -1,7 +1,7 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const { mongoose, TROOP_MODEL } = require('../util/connection');
-const { tableIterator } = require('../util/tableIterator');
+const { infoTableIterator, statTableIterator } = require('../util/tableIterator');
 const constants = require('../util/constants');
 const troops = require('../scrape-data/troops.json');
 
@@ -15,11 +15,11 @@ const getTroopData = () => {
     troopData.name = troop.name;
 
     $('table.wikitable > tbody').each((index, table) => {
-      if (index === 0) troopData.info = tableIterator(table, troop.info);
-      else if (index === 1) troopData.trainingtime = tableIterator(table, troop.trainingtime);
-      else if (index === 2) troopData.stats = tableIterator(table, troop.stats);
+      if (index === 0) troopData.info = infoTableIterator(table, troop.info);
+      else if (index === 1) troopData.trainingtime = infoTableIterator(table, troop.trainingtime);
+      else if (index === 2) troopData.stats = statTableIterator(table, troop.stats);
       if (troop.supertroop) {
-        if (index === 3) troopData.supertroop = tableIterator(table, troop.supertroop);
+        if (index === 3) troopData.supertroop = infoTableIterator(table, troop.supertroop);
       }
     });
 
@@ -30,10 +30,10 @@ const getTroopData = () => {
       $ = cheerio.load(data);
 
       $('table.wikitable > tbody').each((index, table) => {
-        if (index === 0) spawnedTroopData.info = tableIterator(table, spawnedTroop.info);
-        else if (index === 1) spawnedTroopData.stats = tableIterator(table, spawnedTroop.stats);
+        if (index === 0) spawnedTroopData.info = infoTableIterator(table, spawnedTroop.info);
+        else if (index === 1) spawnedTroopData.stats = statTableIterator(table, spawnedTroop.stats);
       });
-      
+
       troopData.spawnedTroop = spawnedTroopData;
     }
     
